@@ -1,0 +1,148 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h1>Bootstrap Assignment </h1>
+    <p>
+        This is my bootstrap assingnment no 2 and course assignment no 18. In this assignment, we will discuss different bootstrap concepts like btn, table ,well ,alert ,img bg ,text color ,text alignment ,jumbotron
+    </p>
+</div>
+
+@*bootstarp on button tag*@
+<h3>Buttons tag Styles</h3>
+<button class="btn btn-success"> Success !</button>
+<button class="btn btn-danger"> Success !</button>
+<button class="btn btn-info"> Success !</button>
+<button class="btn btn-warning"> Success !</button>
+
+<div class="btn-group">
+    <button type="button" class="btn btn-info">Toyyota</button>
+    <button type="button" class="btn btn-info">Tesla</button>
+    <div class="btn-group">
+        <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+            Lamborgini <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Aventador</a></li>
+            <li><a href="#">Espada</a></li>
+        </ul>
+    </div>
+</div>
+@*bootstrap on table tag*@
+<h3>Table tag Styles</h3>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Semester</th>
+            <th>Phone</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Rameez</td>
+            <td>4th</td>
+            <td>03234879062</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ali</td>
+            <td>5th</td>
+            <td>03343790612</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mohsin</td>
+            <td>2nd</td>
+            <td>03345560642</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Fiza</td>
+            <td>4th</td>
+            <td>03556679962</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ayesha</td>
+            <td>4th</td>
+            <td>03288739062</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Ramin</td>
+            <td>6th</td>
+            <td>03234567762</td>
+            <td>Female</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+@*bootstrap on image tag*@
+<h3>Image tag Styles</h3>
+<div class="col-lg-3"><img src="~/img/luke-peterson-lUMj2Zv5HUE-unsplash.jpg" class="img-circle" style="height: 300px; width: 100%" /></div>
+<div class="col-lg-3"><img src="~/img/luke-peterson-lUMj2Zv5HUE-unsplash.jpg" class="img-responsive" style="height: 300px; width: 100%" /></div>
+<div class="col-lg-3"><img src="~/img/luke-peterson-lUMj2Zv5HUE-unsplash.jpg" class="img-rounded" style="height: 300px; width: 100%" /></div>
+<div class="img-thumbnail col-lg-3">
+    <img src="~/img/luke-peterson-lUMj2Zv5HUE-unsplash.jpg" style=" width: 100%; height: 300px" />
+    <p class="caption"> This is a headphone of the well known brand Sony. This headphone has a noise cancelation feature also durable in quality.</p>
+</div>
+
+@*bootstrap on background tag*@
+<h3 class="bg-danger">background tag Styles</h3>
+
+@*bootstrap on text color tag*@
+<h3 style="color: dodgerblue">text color tag Styles</h3>
+
+@*bootstrap on text alignment tag*@
+<h3 class="text-capitalize text-center text-info">alignment tag Styles</h3>
+
+@*bootstrap on well tag*@
+<h3>well tag Styles</h3>
+<div class="well well-lg">This is a Large Well</div>
+
+
+@*bootstrap on alert property*@
+<h3>Alert Properties Styles</h3>
+<div class="container-fluid">
+    <div class="alert alert-success alert-dismissible fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+    </div>
+    <div class="alert alert-info alert-dismissible fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+    </div>
+    <div class="alert alert-warning alert-dismissible fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+    </div>
+    <div class="alert alert-danger alert-dismissible fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+    </div>
+</div>
+
+
+    @*btn
+        table
+        well
+        alert
+        img
+        bg
+        text color
+        text alignment
+        jumbotron*@
+
